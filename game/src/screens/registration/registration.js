@@ -65,9 +65,7 @@ export default class Registration {
     nextBody.classList.add('controls');
     nextBody.innerHTML = '<i class="fa fa-chevron-circle-right"></i>';
     choiceOfBody.appendChild(nextBody);
-  }
 
-  choosePlayer() {
     let prevPart = 0;
     function changePartsOfBody(increment, partOfPlayerInDOM, partOfPlayer) {
       let currentPart = (4 + prevPart + increment) % 4;
@@ -139,7 +137,6 @@ export default class Registration {
 
   initialize() {
     this.buildChoiceOfPlayer();
-    this.choosePlayer();
     this.buildRegistration();
   }
 }

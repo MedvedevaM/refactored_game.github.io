@@ -34,7 +34,7 @@ h2.gameover_text {
   top: 0;
   left: 0;
   background: #c4e381;
-  z-index: 100;
+  z-index: 101;
   display: grid;
   align-content: center;
   justify-content: center;
