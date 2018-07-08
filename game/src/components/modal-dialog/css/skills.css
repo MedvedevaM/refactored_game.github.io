@@ -1,0 +1,143 @@
+@keyframes spin {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center
+}
+
+.skill {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: green;
+}
+
+.wrap_skills {
+  background-image: url('../img/board.png');
+  background-position: -11px 0px;
+  width: 465px;
+  height: 465px;
+  z-index: 100;
+  animation-name: spin;
+  animation-duration: 1500ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  align-items: center;
+}
+
+.skill:hover,
+.skill:focus {
+  color: #07471e;
+}
+
+.skill_1:before {
+  content: "\f1e2";
+}
+
+.skill_2:before {
+  content: "\f0e7";
+}
+
+.skill_3:before {
+  content: "\f12e";
+}
+
+.skill_4:before {
+  content: "\f0f3";
+}
+
+.skill_5:before {
+  content: "\f0d0";
+}
+
+.skill_6:before {
+  content: "\f277";
+}
+
+.skill_7:before {
+  content: "\f2d6";
+}
+
+.skill_8:before {
+  content: "\f0eb";
+}
+
+.skill_9:before {
+  content: "\f06c";
+}
+
+.skill_10:before {
+  content: "\f135";
+}
+
+.skill:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  position: absolute;
+  font-size: 5rem;
+}
+
+ .skill_1 {
+  bottom: 150px;
+  left: 190px;
+}
+
+.skill_2 {
+  bottom: 105px;
+  left: 260px;
+}
+
+.skill_3 {
+  bottom: 10px;
+  left: 265px;
+}
+
+.skill_4 {
+  top: 80px;
+  left: 200px
+}
+
+.skill_5 {
+  left: 90px;
+  top: 160px;
+}
+
+.skill_6 {
+  right: 50px;
+  top: 190px;
+}
+
+.skill_7 {
+  right: 200px;
+  top: 155px;
+}
+
+.skill_8 {
+  right: 295px;
+  top: 75px;
+}
+
+.skill_9 {
+  right: 355px;
+  bottom: 10px;
+}
+
+.skill_10 {
+  right: 350px;
+  bottom: 105px;
+}

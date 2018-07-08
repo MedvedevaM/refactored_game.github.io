@@ -1,0 +1,15 @@
+html {
+  font-size: 10px;
+}
+
+main {
+  margin: 0 auto;
+  width: 900px;
+  min-height: 600px;
+}
+
+p {
+  text-align: center;
+  color: #008000;
+  font-size: 2rem;
+}

@@ -1,0 +1,22 @@
+.listOfMixedLetters {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  list-style-type: none;
+}
+
+.listOfMixedLetters li {
+  color: #004524;
+  background-color: #60cc52;
+  text-align: center;
+  margin: 10px;
+  font-size: 3rem;
+  width: 60px;
+  height: 60px;
+}
+
+.listOfMixedLetters li:focus {
+  background-color: #008000;
+}

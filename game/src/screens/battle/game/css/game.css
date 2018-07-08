@@ -1,0 +1,59 @@
+.characters_name,
+.finish_game_button {
+  position: absolute;
+}
+
+.finish_game_button {
+  left: 50%;
+  margin-left: -100px;
+  width: 200px;
+  font-size: 2rem;
+  background-color: #9f3734;
+  color: #dcd36a;
+  border: none;
+}
+
+.finish_game_button:hover,
+.finish_game_button:focus {
+  background-color: #7a0026;
+}
+
+.characters_name {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.player_name {
+  left: 30px;
+}
+
+.enemy_name {
+  right: 30px;
+}
+
+.quantity_of_lost_life {
+  width: 355px;
+  height: 38px;
+  background-image: url('../img/background_for_left_life.png');
+  position: absolute;
+  top: 35px;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  box-sizing: border-box;
+  color: #dcd36a;
+}
+
+.quantity_of_lost_life_of_player {
+  background-position: 0px -11px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  left: 0;
+}
+
+.quantity_of_lost_life_of_enemy {
+  background-position: -368px -57px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  right: 0;
+}

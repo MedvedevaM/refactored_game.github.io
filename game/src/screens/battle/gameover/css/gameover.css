@@ -1,0 +1,41 @@
+.game_over_button {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #004524;
+  margin: 15px auto;
+  width: 400px;
+  height: 45px;
+}
+
+.game_over_button {
+  border: none;
+  background-color: #60cc52;
+}
+
+.game_over_button:hover,
+.game_over_button:focus {
+  background-color: #008000;
+}
+
+h1.gameover_text {
+  font-size: 8rem;
+}
+
+h2.gameover_text {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.global_wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #c4e381;
+  z-index: 100;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}

@@ -1,0 +1,73 @@
+.enemy_body,
+.enemy_head,
+.enemy_legs,
+.enemy_weapon {
+  position: absolute;
+}
+
+.enemy_legs {
+  bottom: 70px;
+}
+
+.enemy_body_1 {
+  background-image: url('../img/enemy_1.png');
+}
+
+.enemy_body_2 {
+  background-image: url('../img/enemy_2.png');
+}
+
+.enemy_body_3{
+  background-image: url('../img/enemy_3.png');
+}
+
+.enemy_body_4 {
+  background-image: url('../img/enemy_4.png');
+}
+
+.enemy_legs {
+  right: 119px;
+  height: 140px;
+  width: 280px;
+  z-index: 1;
+  background-position: -32px -27px;
+}
+
+.enemy_body {
+  right: 0px;
+  bottom: 115px;
+  width: 465px;
+  height: 240px;
+  background-position: -500px -250px;
+  z-index: 2;
+}
+
+.enemy_head {
+  right: 155px;
+  bottom: 325px;
+  height: 240px;
+  width: 180px;
+  z-index: 3;
+  background-position: -32px -205px;
+}
+
+.enemy_weapon {
+  background-image: url('../img/weapons.png');
+  width: 344px;
+  height: 231px;
+  bottom: 130px;
+  right: 375px;
+  z-index: 3;
+}
+
+.enemy_weapon_1 {
+  background-position: 0px 0px;
+}
+
+.enemy_weapon_2 {
+  background-position: 0px -231px;
+}
+
+.enemy_weapon_3 {
+  background-position: 0px -462px;
+}

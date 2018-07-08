@@ -1,0 +1,52 @@
+.global_wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #c4e381;
+  z-index: 100;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.submit_task {
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 30px auto;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+}
+
+.submit_task:focus,
+.submit_task:hover {
+  background-color: #a4e3f3;
+}
+
+.insert_word {
+  width: 800px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: #a4e3f3;
+}
+
+.insert_word[type="text"] {
+  text-align: center;
+  color:#60cc52;
+  font-size: 5rem;
+}
+
+label {
+  font-size: 5rem;
+  color: #60cc52;
+  text-align: center;
+}

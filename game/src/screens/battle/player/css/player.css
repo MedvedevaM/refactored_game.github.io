@@ -1,0 +1,81 @@
+.player_body_1,
+.player_body_2,
+.player_body_3,
+.player_body_4,
+.player_head_1,
+.player_head_2,
+.player_head_3,
+.player_head_4 {
+  position: absolute;
+}
+
+
+.player_body_1 {
+  background-image: url('../../../registration/img/body_1.png');
+}
+
+.player_body_2 {
+  background-image: url('../../../registration/img/body_2.png');
+}
+
+.player_body_3{
+  background-image: url('../../../registration/img/body_3.png');
+}
+
+.player_body_4 {
+  background-image: url('../../../registration/img/body_4.png');
+}
+
+.player_head_1 {
+  background-image: url('../../../registration/img/head_1.png');
+}
+
+.player_head_2 {
+  background-image: url('../../../registration/img/head_2.png');
+}
+
+.player_head_3 {
+  background-image: url('../../../registration/img/head_3.png');
+}
+
+.player_head_4 {
+  background-image: url('../../../registration/img/head_4.png');
+}
+
+.player_head_1,
+.player_head_2,
+.player_head_3,
+.player_head_4 {
+  height: 210px;
+  width: 170px;
+  z-index: 2;
+}
+
+.player_head_1,
+.player_head_2,
+.player_head_3,
+.player_head_4 {
+  bottom: 312px;
+}
+
+.player_body {
+  width: 170px;
+  height: 200px;
+  bottom: 137px;
+  z-index: 1;
+  background-position: -20px -242px;
+}
+
+.player_legs {
+  width: 185px;
+  height: 100px;
+}
+
+.player_head_1,
+.player_legs {
+  margin-left: 3px;
+}
+
+.player_legs {
+  bottom: 70px;
+}

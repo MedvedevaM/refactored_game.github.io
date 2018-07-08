@@ -1,0 +1,36 @@
+.popup,
+.cross {
+  position: absolute;
+}
+
+.popup {
+  margin-left: -400px;
+  left: 50%;
+  top: 0px;
+  background-color: #60cc52;
+  padding: 30px 15px 15px;
+  min-width: 800px;
+  min-height: 700px;
+  z-index: 100;
+}
+
+.popup ol {
+  font-size: 2rem;
+  margin-left: 50px;
+}
+
+.popup h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.cross {
+  top: 5px;
+  right: 25px;
+  font-size: 4rem;
+}
+
+ol,
+h2 {
+  color: #004524;
+}

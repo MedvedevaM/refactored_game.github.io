@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Gloria Hallelujah';
+  src: url('./fonts/gloriahallelujah.ttf') format('truetype');
+}
+
+* {
+  outline: none;
+  font-family: 'Gloria Hallelujah';
+  cursor: url('cursor/cursor.cur'), auto;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: #c4e381;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #004524;
+}

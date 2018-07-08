@@ -1,0 +1,22 @@
+.listOfWordsToMatch {
+  margin: 40px;
+  list-style-type: none;
+}
+
+.listOfWordsToMatch li {
+  background-color: #60cc52;
+  text-align: center;
+  margin: 10px;
+  width: 150px;
+  height: 40px;
+  font-size: 2rem;
+}
+
+.listOfWordsToMatch li:focus {
+  background-color: #008000;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}

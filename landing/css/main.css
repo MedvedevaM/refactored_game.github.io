@@ -1,0 +1,225 @@
+@font-face {
+  font-family: Gloria;
+  src: url('fonts/gloriahallelujah.ttf')
+};
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #222222;
+  font-family: Gloria;
+}
+
+header {
+  background: url('../img/back.jpg') no-repeat top/cover;
+}
+
+.heading {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+nav {
+  margin-top: 45px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu li{
+  display: block;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 41px;
+}
+
+.titles_first{
+  margin-top: 180px;
+  font-size: 40px;
+}
+
+
+h1 {
+  font-size: 75px;
+  margin: 15px;
+}
+
+h1, .titles_first{
+  text-transform: uppercase;
+  text-align: center;
+}
+.button{
+  background: #fed136;
+  color: #484543;
+  border-radius: 3px;
+  text-decoration: none;
+  display: block;
+  width: 240px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.title {
+  padding-top: 115px;
+}
+
+.title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.title p {
+  color: #777777;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.description_item {
+  width: 400px;
+  text-align: center;
+  margin: 0 40px 0 40px;
+}
+
+.how_to_play_item {
+  margin: 0 auto;
+  text-align: center;
+  width: 800px;
+}
+
+.how_to_play_item h3,
+.description_item h3{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.how_to_play_item p,
+.description_item p {
+  color: #777777;
+  font-size: 25px;
+  line-height: 1.55em;
+}
+
+.screenshots {
+  background: #f5eeb5;
+}
+
+.game_screen {
+  width: 930px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.about_us {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  align-items: center;
+}
+
+.about{
+  margin: 0;
+  width: 320px;
+}
+
+.us {
+  width: 350px;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.radius {
+  border-radius: 50%;
+}
+
+.about:last-child .us{
+  text-align: left;
+  margin-top: 243px;
+  padding-right: 40px;
+  padding-left: 0px;
+}
+
+.about:nth-child(2) .us{
+  margin-bottom: 60px;
+}
+
+.us h3{
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.us h4 {
+  margin: 0;
+}
+.us p {
+  color: #777777;
+  font-size: 14px;
+  line-height: 1.55em;
+}
+.us:last-child{
+  margin-bottom: 0px;
+}
+footer {
+  text-align: center;
+  color: #777777;
+}
+.screen {
+  width: 300px;
+  height: 169px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+img {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+.screen img:hover {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+}

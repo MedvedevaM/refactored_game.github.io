@@ -1,0 +1,25 @@
+.example_images {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin: 15px auto;
+  object-fit: fill;
+}
+
+main {
+  width: 900px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  color: #008000;
+  font-size: 2rem;
+}
+
+.controls {
+  font-size: 4rem;
+  color: #008000;
+  text-align: center;
+}

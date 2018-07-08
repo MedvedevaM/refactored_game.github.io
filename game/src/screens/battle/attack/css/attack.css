@@ -1,0 +1,9 @@
+.fire_attack_wrapper {
+  background-image: url('../img/flame_attack.png');
+  width: 280px;
+  height: 240px;
+  background-position: -55px 0px;
+  bottom: 150px;
+  z-index: 50;
+  position: absolute;
+}
