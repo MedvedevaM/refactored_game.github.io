@@ -1,3 +1,5 @@
+import 'jquery';
+import 'jquery-ui-bundle';
 import './css/drag_n_drop_task.css';
 import {vocabulary} from './../vocabulary';
 import Task from './../task';

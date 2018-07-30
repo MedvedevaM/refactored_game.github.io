@@ -7,10 +7,10 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="heading">
+      <div class="container mx-auto">
+        <div class="heading d-flex">
           <nav>
-            <ul class="menu">
+            <ul class="menu d-flex uppercase">
               <li><a href="#">Home</a></li>
               <li><a href="#description">Descriptions</a></li>
               <li><a href="#screenshots">Screenshots</a></li>
@@ -18,31 +18,24 @@
             </ul>
           </nav>
         </div>
-        <div class="titles">
-          <div class="titles_first">
-            Welcome to our game!
-          </div>
-          <h1>Fight for knowledge</h1>
-        </div>
-        <a class="button" href="game/index.html">Lets Play</a>
+        <h1 class="uppercase text-align-center">Welcome to our game!<br><span>Fight for knowledge<span></h1>
+        <a class="button d-block mx-auto uppercase text-align-center" href="game/index.html">Lets Play</a>
       </div>
     </header>
     <section id="description">
-      <div class="container">
-        <div class="title">
-          <h2>Description</h2>
-        </div>
-        <div class="services">
-          <div class="description_item">
+      <div class="container mx-auto">
+        <h2 class="uppercase text-align-center">Description</h2>
+        <div class="descriptions d-flex">
+          <div class="description-item text-align-center">
             <h3>Genre</h3>
             <p>Simple prodigy fight game clone with math, listening, translation and other interesting tasks</p>
           </div>
-          <div class="description_item">
+          <div class="description-item text-align-center">
             <h3>Technologies</h3>
             <p>Game has been built in native JavaScript classes and some JQuery</p>
           </div>
         </div>
-        <div class="how_to_play_item">
+        <div class="how-to-play-item mx-auto text-align-center">
           <h3>How to play</h3>
           <p>Win enemies by choosing spells and solving tasks and pass to a next fight, using right/left arrows on your keyboard</p>
           <p>If you play only with keyboard, use Tab for switching between buttons/skills,
@@ -55,55 +48,49 @@
       </div>
     </section>
     <section class="screenshots" id="screenshots">
-      <div class="container">
-        <div class="title">
-          <h2>our screenshots</h2>
-        </div>
-        <div class="game_screen">
+      <div class="container mx-auto">
+        <h2 class="uppercase text-align-center">Our screenshots</h2>
+        <div class="game-screen mx-auto d-flex">
           <div class="screen">
-            <img src="landing/img/choose1.jpg" alt="">
+            <img src="landing/img/choose1.jpg" alt="Screenshot">
           </div>
           <div class = "screen"`>
-            <img src="landing/img/fight1.jpg" alt="Работа">
+            <img src="landing/img/fight1.jpg" alt="Screenshot">
           </div>
           <div class = "screen">
-            <img src="landing/img/task1.jpg" alt="Работа">
+            <img src="landing/img/task1.jpg" alt="Screenshot">
           </div>
           <div class = "screen">
-            <img src="landing/img/hero1.jpg" alt="Работа">
+            <img src="landing/img/hero1.jpg" alt="Screenshot">
           </div>
           <div class = "screen">
-            <img src="landing/img/restore1.jpg" alt="Работа">
+            <img src="landing/img/restore1.jpg" alt="Screenshot">
           </div>
           <div class = "screen">
-            <img src="landing/img/hero4.jpg" alt="Работа">
+            <img src="landing/img/hero4.jpg" alt="Screenshot">
           </div>
         </div>
       </div>
     </section>
     <section id="about">
-      <div class="container">
-        <div class="title">
-          <h2>about us</h2>
-        </div>
-        <div class="about_us">
+      <div class="container mx-auto">
+        <h2 class="uppercase text-align-center">about us</h2>
+        <div class="about-us d-flex">
             <div class="us right">
-              <h3>Maria Medvedeva</h3>
+              <h3 class="uppercase">Maria Medvedeva</h3>
               <p>drew player character, leftover life, created drag and drop task, matching words task, vocabulary with words, animation of characters, generation of enemy's body and name, event listeners for skills, attacks, explosions, sound effects, game over window, finish game button, rating, registration page, webpack.</p>
             </div>
             <img class="radius" src="landing/img/masha1.jpg" alt="">
             <img class="radius" src="landing/img/sasha2.jpg" alt="">
             <div class="us left">
-              <h3>Aliaksandr Taranishyn</h3>
+              <h3 class="uppercase">Aliaksandr Taranishyn</h3>
               <p>drew enemies, skills board, created listening task, math task, translating of words and numbers tasks, the task with writing names of animals, vocabulary with numbers, congratulation window, the landing page.</p>
             </div>
         </div>
       </div>
     </section>
-    <footer>
-      <div class="container">
-       Rolling Scopes 2018 Final Game
-      </div>
+    <footer class="text-gray text-align-center">
+      <p>Rolling Scopes 2018 Final Game</p>
     </footer>
   </body>
 </html>

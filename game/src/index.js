@@ -1,4 +1,4 @@
-import './../css/main.css';
+import './css/main.css';
 import {sources} from './components/loading/sources';
 import {createLoadingPage, preloadImages, removeLoading} from './components/loading/loading';
 import Registration from './screens/registration/registration';

@@ -1,4 +1,4 @@
-import './../../../css/main.css';
+import './../../css/main.css';
 import './css/registration.css';
 import {createRatingTable} from './../rating/rating';
 export default class Registration {

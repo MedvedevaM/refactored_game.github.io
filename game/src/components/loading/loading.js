@@ -1,4 +1,4 @@
-import './../../../css/main.css';
+import './../../css/main.css';
 import './css/loading.css';
 export function createLoadingPage() {
   let wrapper = document.createElement('div');

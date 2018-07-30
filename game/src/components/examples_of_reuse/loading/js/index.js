@@ -1,4 +1,4 @@
-import './../../../../../css/main.css';
+import './../../../../css/main.css';
 import './../css/style.css';
 import './../../../loading/css/loading.css';
 import {createLoadingPage, preloadImages, removeLoading} from './../../../loading/loading';

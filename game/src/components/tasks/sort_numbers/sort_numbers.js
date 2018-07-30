@@ -1,3 +1,5 @@
+import 'jquery';
+import 'jquery-ui-bundle';
 import './css/sort_numbers.css';
 import Task from './../task';
 export default class SortNumbers extends Task {

@@ -27,12 +27,16 @@
     "file-loader": "^1.1.11",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "less": "^2.3.1",
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "jquery-ui-bundle": "^1.12.1-migrate",
     "node-static": "^0.7.10"
   }
 }

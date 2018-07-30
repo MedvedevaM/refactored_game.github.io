@@ -1,3 +1,5 @@
+import 'jquery';
+import 'jquery-ui-bundle';
 import './css/matching_words.css';
 import {vocabulary} from './../vocabulary';
 import Task from './../task';

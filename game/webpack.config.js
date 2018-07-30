@@ -1,5 +1,8 @@
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const webpack = require('webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const $ = require('jquery');
 
 module.exports = {
   entry: './src/index.js',
@@ -44,10 +47,35 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.less$/,
+        use: [{
+            loader: "style-loader"
+          }, {
+            loader: "css-loader"
+          }, {
+            loader: "less-loader"
+        }]
+      },
+      {
+         test: /.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
+         use: [{
+           loader: 'file-loader',
+           options: {
+             name: '[name].[ext]',
+             outputPath: 'fonts/',
+             publicPath: '../'
+           }
+         }]
+       }
     ],
   },
   plugins: [
-    new CleanWebpackPlugin(['dist'])
+    new CleanWebpackPlugin(['dist']),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+    }),
   ],
   devtool: 'source-map',
 };

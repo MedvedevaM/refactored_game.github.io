@@ -1,3 +1,4 @@
+import './../../css/font-awesome/css/font-awesome.min.css';
 import './css/skills.css';
 export function createSkillBoard() {
   let numberOfSkills = 10;
